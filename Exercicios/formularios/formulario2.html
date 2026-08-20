@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de produtos</title>
+</head>
+<body>
+<h1>cadastro de produtos</h1>
+<form action="" method="post">
+    <label>
+        Nome do produto:
+        <input name="form_nome" type="text" placeholder="Digite o nome do produto" required>
+    </label>
+    <br>
+    <br>
+    <label>
+        Descrição:<br>
+        <textarea name="form_descricao" rows="10" cols="50" placeholder="informe a descrição do produto" required> </textarea>
+    </label>
+    <br>
+    <br>
+    <label>
+        categoria:
+        <select name="form_categoria">
+            <option value="eletronicos">Eletrônicos</option>
+            <option value="livros">Livros</option>
+            <option value="brinquedos">Brinquedos</option>
+            <option value="esportes">Esportes</option>
+            <option value="calçados">Calçados</option>
+        </select>
+    </label>
+    <br>
+    <br>
+    <label>
+        Pais de fabricação:
+        <select name="form_paises">
+            <option value="brasil">Brasil</option>
+            <option value="estadosunidos">Estados unidos</option>
+            <option value="china">China</option>
+            <option value="africadosul">África do sul</option>
+            <option value="inglaterra">Inglatera</option>
+        </select>
+    </label>
+    <br>
+    <br>
+    <label>
+        Preço:
+        <input name="form_preco" type="number" placeholder="Digite o preço do produto" required>
+    </label>
+    <br>
+    <br>
+    <label>
+        Data de fabricação:
+        <input name="form_data" type="date" placeholder="data de fabricação">
+    </label>
+    <br>
+    <br>
+    <button type="submit">Salvar </button>
+    <button type="reset">redefinir</button>
+
+</body>
+</html>

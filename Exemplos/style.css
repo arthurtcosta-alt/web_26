@@ -1,0 +1,20 @@
+body{
+    background-color: grey;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    background-color: black;
+}
+/* :hover é para quando passar o mouse por cima*/
+h1:hover{
+    color: black;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.titulo{
+    color: peru;
+}
